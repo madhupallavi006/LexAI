@@ -1,0 +1,50 @@
+{
+  "Non-Compete": {
+    "risk": "HIGH",
+    "description": "Restricts working in competing business after contract ends.",
+    "keywords": ["non-compete", "not compete", "competing business"],
+    "red_flags": ["worldwide", "5+ years", "broad scope"]
+  },
+  "Mandatory Arbitration": {
+    "risk": "HIGH",
+    "description": "Requires disputes through private arbitration, waives jury trial.",
+    "keywords": ["arbitration", "binding arbitration", "waive jury"],
+    "red_flags": ["waive class action", "no appeal", "binding"]
+  },
+  "IP Assignment": {
+    "risk": "HIGH",
+    "description": "Assigns ownership of intellectual property to the other party.",
+    "keywords": ["intellectual property", "IP assignment", "work for hire"],
+    "red_flags": ["all inventions", "prior inventions", "personal projects"]
+  },
+  "Auto-Renewal": {
+    "risk": "MEDIUM",
+    "description": "Contract renews automatically unless cancelled in time.",
+    "keywords": ["automatic renewal", "auto-renew", "rollover"],
+    "red_flags": ["short notice window", "no reminder", "evergreen"]
+  },
+  "Liquidated Damages": {
+    "risk": "HIGH",
+    "description": "Pre-agreed financial penalty payable upon breach.",
+    "keywords": ["liquidated damages", "penalty", "fixed sum"],
+    "red_flags": ["large fixed amount", "per day penalty"]
+  },
+  "Indemnification": {
+    "risk": "HIGH",
+    "description": "Requires covering losses and legal costs of the other party.",
+    "keywords": ["indemnify", "indemnification", "hold harmless"],
+    "red_flags": ["uncapped", "third party claims", "broad scope"]
+  },
+  "At-Will Employment": {
+    "risk": "MEDIUM",
+    "description": "Either party can terminate employment at any time.",
+    "keywords": ["at-will", "without cause", "terminate at any time"],
+    "red_flags": ["no severance", "immediate termination"]
+  },
+  "Salary Clawback": {
+    "risk": "HIGH",
+    "description": "Requires repaying salary or bonuses under certain conditions.",
+    "keywords": ["clawback", "repay", "return bonus", "recoup"],
+    "red_flags": ["repay signing bonus", "broad trigger conditions"]
+  }
+}
